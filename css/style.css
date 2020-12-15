@@ -1,17 +1,16 @@
 * {
   padding: 0;
   margin: 0;
-  border: border-box;
   text-decoration: none;
   -webkit-tap-highlight-color: transparent;
 }
 
-header {
-  height: 20vh;
+body header {
+  height: 30vh;
   background-color: #00aeff;
 }
 
-.nav-container {
+body .nav-container {
   background-color: #ffbb00;
   position: relative;
   display: -webkit-box;
@@ -20,14 +19,80 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-shadow: 0px 4px 10px #4e4e4e;
+          box-shadow: 0px 4px 10px #4e4e4e;
 }
 
-.nav-container .navbar {
+body .nav-container .navbar {
   text-align: center;
   margin: auto;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
-.nav-container .navbar-toggler {
+body .nav-container .navbar-toggler {
   border: none;
+}
+
+body .card-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: blue;
+}
+
+body .card-container .cards {
+  background-color: #861515;
+  margin: 1rem;
+  padding: 2rem;
+  width: 200px;
+  height: 200px;
+  -webkit-box-shadow: 2px 5px 10px #4e4e4e;
+          box-shadow: 2px 5px 10px #4e4e4e;
+  border: 2px solid #4e4e4e;
+}
+
+body .card-container .cards p {
+  color: #ffbb00;
+  font-size: 0.65rem;
+}
+
+@media screen and (min-width: 576px) {
+  body .navbar-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  body .card-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
 }
 /*# sourceMappingURL=style.css.map */
