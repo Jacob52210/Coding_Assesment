@@ -22,8 +22,8 @@ body .nav-container {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-shadow: 0px 4px 10px #4e4e4e;
-          box-shadow: 0px 4px 10px #4e4e4e;
+  -webkit-box-shadow: 0px 4px 10px #1a1a1a;
+          box-shadow: 0px 4px 10px #1a1a1a;
 }
 
 body .nav-container .navbar {
@@ -70,7 +70,7 @@ body .card-container {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #3939be;
+  background-color: #5656ff;
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
@@ -81,9 +81,9 @@ body .card-container .cards {
   padding: 2rem;
   width: 200px;
   height: 200px;
-  -webkit-box-shadow: 2px 5px 10px #4e4e4e;
-          box-shadow: 2px 5px 10px #4e4e4e;
-  border: 2px solid #4e4e4e;
+  -webkit-box-shadow: 5px 5px 10px #1a1a1a;
+          box-shadow: 5px 5px 10px #1a1a1a;
+  border: 2px solid #1a1a1a;
 }
 
 body .card-container .cards p {
