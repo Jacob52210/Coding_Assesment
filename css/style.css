@@ -50,6 +50,7 @@ body .nav-container .navbar-collapse .navbar-nav {
 body .nav-container .navbar-collapse .navbar-nav a {
   color: #861515;
   font-weight: bold;
+  font-size: 1.5rem;
 }
 
 body .nav-container .navbar-collapse .navbar-nav a:hover {
